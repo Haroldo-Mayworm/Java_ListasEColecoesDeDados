@@ -6,6 +6,11 @@ public class Tabuleiro extends Jogo {
 	private String genero;
 	private int minimoJogadores;
 	private int faixaEtaria;
+
+// Construtor
+	public Tabuleiro(String titulo) {
+		super(titulo);
+	}
 	
 // Getters
 	public String getGenero() {

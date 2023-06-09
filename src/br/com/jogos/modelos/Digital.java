@@ -7,6 +7,11 @@ public class Digital extends Jogo {
 	private String desenvolvedor;
 	private int duracaoDoJogoMinutos;
 	
+// Construtor
+	public Digital(String titulo) {
+		super(titulo);
+	}
+	
 // Getters
 	public String getPlataforma() {
 		return plataforma;

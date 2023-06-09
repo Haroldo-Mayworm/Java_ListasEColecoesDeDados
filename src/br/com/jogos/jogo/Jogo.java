@@ -7,6 +7,11 @@ public class Jogo {
 	private int totalCurtidas;
 	private int classificacao;
 	
+// Construtores
+	public Jogo(String titulo) {
+		this.titulo = titulo;
+	}
+	
 // Getters
 	public String getTitulo() {
 		return titulo;
