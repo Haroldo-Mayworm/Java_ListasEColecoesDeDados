@@ -41,7 +41,7 @@ public class Jogo {
 		this.descricao = descricao;
 	}
 // Métodos
-	public void curte() {
+	public void curte(int i) {
 		this.totalCurtidas++;
 	}
 	

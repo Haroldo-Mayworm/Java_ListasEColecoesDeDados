@@ -1,3 +1,4 @@
+package principal;
 import java.util.ArrayList;
 
 import br.com.jogos.modelos.Digital;
@@ -21,7 +22,7 @@ public class Principal {
 			red.baixa();
 		}
 		for (int i = 0; i < 1000; i++) {
-			red.curte();
+			red.curte(i);
 		}
 //
 		Digital cod = new Digital("Call of Duty");
@@ -37,7 +38,7 @@ public class Principal {
 			cod.baixa();
 		}
 		for (int i = 0; i < 3200; i++) {
-			cod.curte();
+			cod.curte(i);
 		}
 //
 		Tabuleiro war = new Tabuleiro("War");
@@ -54,7 +55,7 @@ public class Principal {
 			war.baixa();
 		}
 		for (int i = 0; i < 50; i++) {
-			war.curte();
+			war.curte(i);
 		}
 // 
 		JogosPreferidos preferidos = new JogosPreferidos();
@@ -69,15 +70,6 @@ public class Principal {
 		System.out.println(listaDeDigitais.get(1).getTitulo());
 		System.out.println(listaDeDigitais);
 //
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 	}
 }
