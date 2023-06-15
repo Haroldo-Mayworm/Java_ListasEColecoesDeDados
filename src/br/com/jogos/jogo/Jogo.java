@@ -1,6 +1,6 @@
 package br.com.jogos.jogo;
 
-public class Jogo {
+public class Jogo implements Comparable<Jogo> {
 	private String titulo;
 	private String descricao;
 	private int totalDownloads;
@@ -47,5 +47,10 @@ public class Jogo {
 	
 	public void baixa() {
 		this.totalDownloads++;
+	}
+
+	@Override
+	public int compareTo(Jogo outroJogo) {
+		return this.getTitulo().compareTo(outroJogo.getTitulo());
 	}
 }
